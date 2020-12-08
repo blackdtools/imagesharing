@@ -1,0 +1,37 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "29.0.3"
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    defaultConfig {
+        applicationId "net.blackdevelopers.imagesharingtest"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "0.0.1"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation project(":imagesharing")
+}

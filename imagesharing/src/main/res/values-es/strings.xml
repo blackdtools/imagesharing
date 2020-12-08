@@ -1,0 +1,11 @@
+<resources>
+    <string name="imagesharing_sample_pick_image_description">imagen</string>
+    <string name="imagesharing_sample_share_selection">Compartir</string>
+    <string name="imagesharing_sample_sharing_images">Compartir imágenes…</string>
+    <string name="imagesharing_select_all">Seleccionar todo</string>
+    <string name="imagesharing_clear_selection">Desmarcar todo</string>
+    <string name="imagesharing_no_selection_warning">Nada seleccionado - Por favor elige primero.</string>
+    <string name="imagesharing_title">Seleccionadas: %1$d</string>
+    <string name="imagesharing_full_photo">Foto</string>
+    <string name="imagesharing_close_detail">Ir atrás</string>
+</resources>

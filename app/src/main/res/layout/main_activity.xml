@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myPrimaryColor"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="@string/imagesharing_sample_title" />
+
+    <Button
+        android:id="@+id/btnPickImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/imagesharing_sample_pick_images"
+        android:onClick="btnPickImages_onClick"
+        />
+
+    <Button
+        android:id="@+id/btnLaunchImageSharingActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="@string/imagesharing_sample_launch_activity"
+        android:onClick="btnLaunchImageSharingActivity_onClick"
+        />
+</LinearLayout>

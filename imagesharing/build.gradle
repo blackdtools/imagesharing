@@ -1,0 +1,48 @@
+plugins {
+    id 'com.android.library'
+}
+
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.blackdtools'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "29.0.3"
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 1
+        versionName "0.0.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    api "androidx.recyclerview:recyclerview:1.1.0"
+    api "com.google.android.material:material:1.2.1"
+    api "com.intuit.sdp:sdp-android:1.0.6"
+    api "com.squareup.picasso:picasso:2.71828"
+    api "androidx.constraintlayout:constraintlayout:2.0.4"
+    api 'androidx.appcompat:appcompat:1.2.0'
+    api 'com.github.chrisbanes:PhotoView:2.3.0'
+
+}

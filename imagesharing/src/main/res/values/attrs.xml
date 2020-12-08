@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageSharingView">
+        <attr name="listitem" format="reference" />
+    </declare-styleable>
+</resources>

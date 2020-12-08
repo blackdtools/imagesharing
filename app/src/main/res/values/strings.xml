@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ImageSharing Example</string>
+    <string name="imagesharing_sample_title">ImageSharing - Example</string>
+    <string name="imagesharing_sample_pick_images">Pick some images…</string>
+    <string name="imagesharing_sample_pick_title">Pick some images…</string>
+    <string name="imagesharing_sample_pick_error">Error: Unable to obtain uri list from selection.</string>
+    <string name="imagesharing_sample_select_all">Select all</string>
+    <string name="imagesharing_sample_select_none">Select none</string>
+    <string name="imagesharing_sample_sharing_images">Sharing some images…</string>
+    <string name="imagesharing_sample_launch_activity">Launch ImageSharingActivity</string>
+</resources>

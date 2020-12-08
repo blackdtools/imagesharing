@@ -1,0 +1,3 @@
+include ':imagesharing'
+include ':app'
+rootProject.name = "ImageSharingTest"

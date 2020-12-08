@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="myColorPrimary">#FF6200EE</color>
+    <color name="myColorPrimaryVariant">#FF3700B3</color>
+    <color name="myColorSecundary">#FF03DAC5</color>
+    <color name="myColorSecundaryVariant">#FF018786</color>
+    <color name="myColorOnSecundary">#FF000000</color>
+    <color name="myColorOnPrimary">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnShare"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"
+        android:title="@string/imagesharing_sample_share_selection">
+    </item>
+    <item
+        android:id="@+id/btnSelectAll"
+        android:icon="@drawable/ic_done_all"
+        app:showAsAction="never"
+        android:title="@string/imagesharing_select_all">
+    </item>
+    <item
+        android:id="@+id/btnClearSelection"
+        android:icon="@drawable/ic_filter_none"
+        app:showAsAction="never"
+        android:title="@string/imagesharing_clear_selection">
+    </item>
+    <item
+        android:id="@+id/btnCloseImageDetail"
+        android:icon="@drawable/ic_filter_none"
+        app:showAsAction="never"
+        android:visible="false"
+        android:title="@string/imagesharing_close_detail">
+    </item>
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+    <style name="myCustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/mySecundaryColor</item>
+    </style>
+    <style name="Theme.ImageSharingStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/myPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/myPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/myPrimaryColor</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextAppearance</item>
+        <item name="colorSecondary">@color/mySecundaryColor</item>
+        <item name="colorSecondaryVariant">@color/mySecundaryColor</item>
+        <item name="android:textColorSecondary">@color/mySecundaryColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/myPrimaryColor</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+</resources>
